@@ -2,7 +2,7 @@ export type Language = 'ja' | 'en';
 
 export const translations = {
   ja: {
-    title: "Pix Morph",
+    title: "PixSlice",
     subtitle: "画像一括変換・リサイズツール",
     dropzoneTitle: "クリックしてファイルを選択、またはドラッグ＆ドロップ",
     dropzoneSubtitle: "JPG, PNG, WEBP 等に対応",
@@ -48,7 +48,7 @@ export const translations = {
     termsSuffix: "に同意したうえで利用したこととみなします。",
   },
   en: {
-    title: "Pix Morph",
+    title: "PixSlice",
     subtitle: "Batch Converter & Resizer",
     dropzoneTitle: "Click to select files or drag and drop",
     dropzoneSubtitle: "Supports JPG, PNG, WEBP, etc.",

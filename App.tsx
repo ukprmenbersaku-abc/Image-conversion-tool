@@ -159,7 +159,7 @@ const App: React.FC = () => {
       });
 
       const content = await zip.generateAsync({ type: 'blob' });
-      FileSaver.saveAs(content, `pixmorph_converted_${Date.now()}.zip`);
+      FileSaver.saveAs(content, `pixslice_converted_${Date.now()}.zip`);
     } else {
       // Raw files
       for (let i = 0; i < readyFiles.length; i++) {
@@ -544,7 +544,7 @@ const App: React.FC = () => {
         <p>
           {t.termsPrefix}
           <a
-            href="https://ukpr-riyoukiyaku.pages.dev/#/tos/pixmorph"
+            href="https://ukpr-riyoukiyaku.pages.dev/#/tos/pixslice"
             target="_blank"
             rel="noopener noreferrer"
             className="text-primary hover:underline"
